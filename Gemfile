@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+
+gem 'capybara'
+gem 'cucumber'
+gem 'rspec'
+gem 'ffi'
+gem 'selenium-webdriver'
+gem 'site_prism'
+gem 'chromedriver-helper'
+gem 'report_builder'
+gem 'os'
+gem 'pg'
