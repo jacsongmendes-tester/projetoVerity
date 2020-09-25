@@ -2,6 +2,7 @@ require "report_builder"
 require "date"
 Before do 
     @Pages = Pages.new
+    page.current_window.resize_to(1920,1080)
 end
 
 After do 

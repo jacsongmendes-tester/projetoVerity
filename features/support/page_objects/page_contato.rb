@@ -22,7 +22,6 @@ class Pages
 
     def validarMensagem
         msgSucesso = find(ModuleElements::ElementsPage.elementMensagemSucesso).text
-        puts msgSucesso 
         if msgSucesso.include?("Mensagem enviada com sucesso!")
             puts "\n\n*-------- Mensagem envida com Sucesso -----------*\n\n"
         end     
